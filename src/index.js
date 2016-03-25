@@ -32,6 +32,11 @@ export {
   mutationWithClientMutationId,
 } from './mutation/mutation.js';
 
+// Helper for creating subscription with client subscription IDs
+export {
+  subscriptionWithClientSubscriptionId,
+} from './subscription/subscription.js';
+
 // Helper for creating node definitions
 export {
   nodeDefinitions,
